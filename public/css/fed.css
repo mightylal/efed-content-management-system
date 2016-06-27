@@ -1,0 +1,297 @@
+.navbar-default {
+    background: linear-gradient(#303030, #000000);
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #CCC;
+  background-color: transparent;  
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        margin-top: 25px;
+    }
+    .dropdown-menu {
+  position: absolute;
+  top: 146%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #000;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #000;
+  /*border: 1px solid rgba(0, 0, 0, .15);*/
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+    .dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #FFF;
+  white-space: nowrap;
+}
+}
+
+.navbar {
+    padding: 10px;  
+}
+
+.dropdown > a:focus {
+    background-color: #FF0;   
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #FF0;
+  background-color: transparent;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border: 0;
+}
+
+.nav .navbar-nav {
+ border: 0;   
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #FFF;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #CCC;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border: 0;
+	background: none;
+	font-weight: normal;
+	color: #CA0000;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: #F00;
+	text-decoration: none;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 0;
+	background: none;
+	font-weight: normal;
+	color: #CA0000;
+}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited {
+	color: #CA0000;
+	text-decoration: none;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	border: 0;
+	background: none;
+	font-weight: normal;
+	color: #CA0000;
+}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #CA0000;
+	text-decoration: none;
+}
+
+.trumbowyg-editor {
+    background-color: #FFF;
+    color: #000;
+}
+
+.trumbowyg-textarea {
+    color: #000;   
+}
+
+ol.breadcrumb {
+    background-color: transparent;
+}
+
+/* FED DESIGN ELEMENTS */
+
+/* control body background */
+body {
+    background-color: #FFF;
+}
+
+/* control navbar background */
+.navbar-default {
+    background: linear-gradient(#303030, #000000);
+    border: 0;
+    border-radius: 0;
+}
+
+/* control top menu and admin menu link colors */
+.navbar-default .navbar-nav > li > a:link,a:visited,
+.navbar-default .navbar-nav > li > a,
+.dropdown-menu > li > a {
+    color: #F0F;
+}
+
+.navbar-default .navbar-nav > li > a:hover,a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #F90;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #F90;
+}
+
+.dropdown-menu {
+    background-color: #FF0;
+    border-color: #FF0;
+}
+
+/* control text color, badge color */
+body,
+.hovereffectChamp h2,
+.hovereffectChamp p,
+.badge {
+    color: #666;
+}
+
+/* control link color */
+a:link,
+a:visited,
+.hovereffect a{
+    color: #F0F;
+}
+
+/* control table striped row background color */
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #F90;
+}
+
+/* control table border, hr tags, admin applications badge background color */
+.table > thead > tr > th,
+.table > tbody > tr > td,
+.page-header,
+.hovereffect .overlay {
+    border-color: #000;
+}
+
+.hovereffectChamp h2:after,
+.badge {
+    background-color: #000;
+}
+
+/* control champions container */
+.hovereffectChamp {
+    background-color: #303030;
+}
+
+/* control admin tab hover */
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  text-decoration: none;
+  background-color: #F90;
+    border-color: #303030;
+}
+
+/* control admin tab */
+.nav-tabs > li > a {
+    background-color: #000;
+    border-color: #303030;
+}
+
+/* control admin tab active */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus  {
+    background-color: #FFF;
+    border-color: #303030;
+    color: #666;
+}
+
+.nav-tabs {
+    border-bottom-color: #303030;
+}
+
+/* control forum breadcrumb text color */
+.breadcrumb > li + li:before {
+  color: #666;
+}
+
+/* control forum breadcrumb active color */
+.breadcrumb > .active {
+    color: #303030;
+}
+
+/* control forum quote background color and border */
+.quote-container {
+    background-color: #303030;
+    border-color: #303030;
+}
